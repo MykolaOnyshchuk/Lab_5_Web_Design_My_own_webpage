@@ -281,7 +281,7 @@ body {
     width: 1000px;
     height: 420px;
     z-index: 2;
-    background: url(img/ford.png);
+    background: url(../img/ford.png);
 }
 
 #signUpEl{
