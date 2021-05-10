@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Given example</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/BeerSlider.css">
+</head>
+<body>
+<div class="header">
+    <img src="img/logo.png" id="logo">
+    <div id="slogan">Best carsharing service ever!</div>
+    <div id="menu">
+        <div class="menuComponentWrap">
+            <a class="menuComponent">About us</a>
+        </div>
+        <div class="menuComponentWrap">
+            <a class="menuComponent">How to use</a>
+        </div>
+        <div class="menuComponentWrap">
+            <a class="menuComponent">Our cars</a>
+        </div>
+        <div class="menuComponentWrap">
+            <a class="menuComponent">Prices</a>
+        </div>
+    </div>
+    <div id="borderWrap">
+        <button type="button" id="downloadBut">Download our app</button>
+    </div>
+    <div id="iconsWrap">
+        <img src="img/facebook.png" class="icon">
+        <img src="img/instagram.png" class="icon">
+        <img src="img/youtube.png" class="icon">
+    </div>
+</div>
+
+<div id="ourCarsHeader">Our cars</div>
+<div id="ourCarsWrapper">
+    <img src="img/rio2.jpg" id="ourCarsImage">
+    <div id="ourCarsTextWrap">
+        <div id="ourCarsText1">Econom</div>
+        <div id="ourCarsText2">Kia Rio</div>
+        <div id="ourCarsText3">Cost: 4 ₴/min</div>
+        <div id="ourCarsText4">Need an ordinary modern car to get from point A to point B? Choose Kia Rio! It is a nice car to satisfy your basic needs with the cheapest cost of rent. Each car has an A/C, ABS and ESP in it! Look on the driver's door or in our app to see if car has manual or automatic gearbox.</div>
+        <div id="ourCarsButton">Learn more</div>
+    </div>
+</div>
+
+<div id="ourBenefits">
+    <div id="whyCarsharing">Why carsharing?</div>
+    <div id="ourBenefitsWrap">
+        <div class="ourBenefitsBlockWrap">
+            <img class="ourBenefitsIcon" src="img/Fast.png">
+            <div class="ourBenefitsHeader">Fast</div>
+            <div class="ourBenefitsText">Faster than public transport or getting a taxi! Use our service when you cannot drive your own car.</div>
+        </div>
+        <div class="ourBenefitsBlockWrap">
+            <img class="ourBenefitsIcon" src="img/flash.png">
+            <div class="ourBenefitsHeader">Cheap</div>
+            <div class="ourBenefitsText">With our rates carsharing is cheaper than taxi.</div>
+        </div>
+        <div class="ourBenefitsBlockWrap">
+            <img class="ourBenefitsIcon" src="img/Easy.png">
+            <div class="ourBenefitsHeader">Easy</div>
+            <div class="ourBenefitsText">Leave the car on any parking which is closest to your destination. Use a car like your own and  enjoy all the benefits of carsharing!</div>
+        </div>
+    </div>
+</div>
+
+<div id="signUpWrap">
+    <div id="signUp"></div>
+    <div id="signUpEl">
+        <div id="signUpHeader">Want to get the freshest news and personal offers? Leave your name and email here to stay in touch with us! We promise you not to spam.</div>
+        <input id="nameInput" placeholder="Type in your name here..." type="text">
+        <input id="emailInput" placeholder="Type in your email here..." type="email">
+        <button id="signUpButton">
+            <img id="submit" src="img/submit.png">
+            <div id="submitText">Submit</div>
+        </button>
+    </div>
+
+</div>
+
+<div id="gallery">
+    <div id="galleryHeader">Gallery</div>
+    <div id="gallerySlogan">From econom to premium</div>
+    <div id="slider" class="beer-slider">
+        <img class="imgComp" src="img/rio.jpg" alt="">
+        <div class="beer-reveal">
+            <img class="imgComp" src="img/amg.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footerWrap">
+        <div class="footerHeader" id="footerHeader1">Getwheels</div>
+        <div class="footerText">Best when it comes to cars</div>
+    </div>
+    <div class="footerWrap">
+        <div class="footerHeader">Call Us</div>
+        <div class="footerText">+38(068) 596 42 76<br>
+            +38 (099) 186 48 23<br>
+            +38 (063) 882 34 93</div>
+    </div>
+    <div class="footerWrap">
+        <div class="footerHeader">Write Us</div>
+        <div class="footerText">getwheels.help@gmail.com <br>
+            getwheels@gmail.com</div>
+    </div>
+</footer>
+<script src="js/BeerSlider.js"></script>
+<script>
+    new BeerSlider(document.getElementById('slider'));
+</script>
+</body>
+</html>
