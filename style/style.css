@@ -25,19 +25,12 @@ body {
 #slogan {
     position: absolute;
     left: 3.67%;
-    right: 76.52%;
     top: 77.27%;
-    bottom: 8.33%;
-
     font-family: "Segoe UI";
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1.05vw;
     line-height: 19px;
-    /* identical to box height */
-
-
-    color: #000000;
 }
 
 #menu {
@@ -86,8 +79,8 @@ body {
     background-color: black;
     position: absolute;
     box-sizing: border-box;
-    height: 40px;
-    width: 140px;
+    height: 2.7vw;
+    width: 9.2vw;
     top: 5.5%;
     left: 1.7%;
     border-radius: 7px;
@@ -114,14 +107,12 @@ body {
 
 #borderWrap {
     position: absolute;
-    width: 145px;
-    height: 45px;
+    width: 9.5vw;
+    height: 3vw;
     display: block;
     background: linear-gradient(to top, rgba(244, 236, 23, 1), rgba(0, 255, 255, 1));
     left: 65.7%;
-    right: 20.68%;
     top: 34.85%;
-    bottom: 34.85%;
     border-radius: 7px;
     cursor: pointer;
 }
